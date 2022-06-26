@@ -37,6 +37,6 @@ workflows:
       - print-hello
   say-world-workflow:
     jobs:
-      - print-world:
+      - print-world
           requires:
             - print-hello
